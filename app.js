@@ -23,13 +23,4 @@ const person = {
   surname: "AA",
 };
 
-function aa() {
-  let employee = { ...person };
-  person.age = 88;
-  console.log(employee);
-  //name: Arina,
-  //age: 88,
-  //surname: AA,
-}
-
-console.log(aa());
+person.age = 88;
