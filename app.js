@@ -87,7 +87,7 @@ function getNumber() {
   const lastNames = person;
 }
 
-//Вывести фамилии и количество людей с данными фамилиями
+//Вывести фамилии и количество людей с данными фамилиямиg
 
 //Post  localhost:/api/authors - 201 created, 400 - Bad Request, 401,
 //delete localhost:/api/authors/:id - 200,404
