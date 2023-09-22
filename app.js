@@ -70,6 +70,7 @@ const persons = [
 //   console.log(new Set(lastName));
 // }
 // getLastNames();
+// getLastNames();
 
 // function getSorokova() {
 //   const getSorokova = persons.map((person) =>
