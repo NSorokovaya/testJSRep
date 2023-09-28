@@ -95,3 +95,5 @@ function getNumber() {
 //put localhost:/api/authors/:id - 200,404
 // get localhost:/api/authors - 200, 500
 //get localhost:/api/authors/:id -
+
+//update
