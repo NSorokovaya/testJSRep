@@ -84,11 +84,29 @@ const persons = [
 // Aryna = Aryna.concat("super");
 // console.log(Aryna);
 
-function getNumber() {
-  const lastNames = person;
-}
+// function getNumber() {
+//   const lastNames = person;
+// }
 
-//Вывести фамилии и количество людей с данными фамилиямиg
+//Вывести фамилии и количество людей с данными фамилиями
+
+const uniqueLastNames = [];
+persons.forEach((person) => {
+  const { lastName } = person;
+
+  if (uniqueLastNames[lastName]) {
+    uniqueLastNames[lastName]++;
+  } else {
+    uniqueLastNames[lastName] = 1;
+  }
+});
+
+console.log(uniqueLastNames);
+
+// const uniqueLastNames = persons
+//   .map((person) => person.lastName)
+//   .filter((person) => person.lastName === person.lastName);
+// console.log(uniqueLastNames);
 
 //Post  localhost:/api/authors - 201 created, 400 - Bad Request, 401,
 //delete localhost:/api/authors/:id - 200,404
