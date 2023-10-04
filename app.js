@@ -90,18 +90,18 @@ const persons = [
 
 //Вывести фамилии и количество людей с данными фамилиями
 
-const uniqueLastNames = [];
-persons.forEach((person) => {
-  const { lastName } = person;
+// const uniqueLastNames = [];
+// persons.forEach((person) => {
+//   const { lastName } = person;
 
-  if (uniqueLastNames[lastName]) {
-    uniqueLastNames[lastName]++;
-  } else {
-    uniqueLastNames[lastName] = 1;
-  }
-});
+//   if (uniqueLastNames[lastName]) {
+//     uniqueLastNames[lastName]++;
+//   } else {
+//     uniqueLastNames[lastName] = 1;
+//   }
+// });
 
-console.log(uniqueLastNames);
+// console.log(uniqueLastNames);
 
 // const uniqueLastNames = persons
 //   .map((person) => person.lastName)
