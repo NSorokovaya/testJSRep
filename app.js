@@ -25,43 +25,43 @@
 
 // person.age = 88;
 
-const persons = [
-  {
-    name: "Arina",
-    lastName: "Labuts",
-    age: 24,
-  },
-  {
-    name: "Nadiia",
-    lastName: "Sorokova",
-    age: 22,
-  },
-  {
-    name: "Iryna",
-    lastName: "Sorokova",
-    age: 48,
-  },
-  {
-    name: "Vlad",
-    lastName: "Shevchuk",
-    age: 28,
-  },
-  {
-    name: "Sasha",
-    lastName: "Labuts",
-    age: 16,
-  },
-  {
-    name: "Seva",
-    lastName: "Labuts",
-    age: 14,
-  },
-  {
-    name: "Masha",
-    lastName: "Lusyuk",
-    age: 24,
-  },
-];
+// const persons = [
+//   {
+//     name: "Arina",
+//     lastName: "Labuts",
+//     age: 24,
+//   },
+//   {
+//     name: "Nadiia",
+//     lastName: "Sorokova",
+//     age: 22,
+//   },
+//   {
+//     name: "Iryna",
+//     lastName: "Sorokova",
+//     age: 48,
+//   },
+//   {
+//     name: "Vlad",
+//     lastName: "Shevchuk",
+//     age: 28,
+//   },
+//   {
+//     name: "Sasha",
+//     lastName: "Labuts",
+//     age: 16,
+//   },
+//   {
+//     name: "Seva",
+//     lastName: "Labuts",
+//     age: 14,
+//   },
+//   {
+//     name: "Masha",
+//     lastName: "Lusyuk",
+//     age: 24,
+//   },
+// ];
 
 // function getLastNames() {
 //   const lastName = persons
