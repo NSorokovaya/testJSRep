@@ -59,3 +59,28 @@ for (const key of keys) {
 const result = gdanskPeople.map((p) => p.id).filter((id) => pets[id]).length;
 
 console.log(result);
+
+//task2
+
+for (person of gdanskPeople) {
+  const petD = pets[person.id];
+  if (!petD) {
+    console.log(person.name, "No pets");
+  } else console.log(person.name, petD.name);
+}
+
+let r = gdanskPeople.map((p) => {
+  return {
+    personName: p.name,
+    petName: pets[p.id] ? pets[p.id].name : "No pets",
+  };
+});
+
+//task3
+const oldPeopleSum = gdanskPeople
+  .filter((person) => person.age > 24)
+  .map((p) => p.age)
+  .reduce((previousValue, age) => {
+    return previousValue + age;
+  }, 0);
+console.log(oldPeopleSum);
