@@ -130,13 +130,13 @@ const ts = [-5, 5, -29, 950, 2, -4];
 // }
 
 function computeClosestToZero(ts) {
-  let closest = 0;
+  let closest = ts[0];
 
-  for (let i = 0; i < ts.length; i++) {
-    const currentNumber = Math.abs(ts[i]);
+  for (const number of ts) {
+    const currentNumber = Math.abs(number);
 
-    if (closest === 0 || currentNumber < closest) {
-      closest = ts[i];
+    if (currentNumber < closest) {
+      closest = number;
     }
   }
 
