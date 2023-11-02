@@ -129,18 +129,40 @@ const ts = [-5, 5, -29, 950, 2, -4];
 //   return closest;
 // }
 
-function computeClosestToZero(ts) {
-  let closest = ts[0];
+// function computeClosestToZero(ts) {
+//   let closest = ts[0];
 
-  for (const number of ts) {
-    const currentNumber = Math.abs(number);
+//   for (const number of ts) {
+//     const currentNumber = Math.abs(number);
 
-    if (currentNumber < closest) {
-      closest = number;
-    }
-  }
+//     if (currentNumber < closest) {
+//       closest = number;
+//     }
+//   }
 
-  return closest;
+//   return closest;
+// }
+
+// console.log(computeClosestToZero(ts));
+
+const book = {
+  title: "The Last Kingdom",
+  author: "Bernard Cornwell",
+  genres: ["historical prose", "adventure"],
+  rating: 8.38,
+};
+
+// for (const key in book) {
+//   // Ключ
+//   //console.log(key);
+//   // Значение свойства с таким ключом
+//   console.log(book[key]);
+// }
+const keys = Object.keys(book);
+
+for (const key of keys) {
+  // Ключ
+  console.log(key);
+  // Значение свойства
+  console.log(book[key]);
 }
-
-console.log(computeClosestToZero(ts));
