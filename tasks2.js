@@ -145,12 +145,12 @@ const ts = [-5, 5, -29, 950, 2, -4];
 
 // console.log(computeClosestToZero(ts));
 
-const book = {
-  title: "The Last Kingdom",
-  author: "Bernard Cornwell",
-  genres: ["historical prose", "adventure"],
-  rating: 8.38,
-};
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
 
 // for (const key in book) {
 //   // Ключ
@@ -158,11 +158,29 @@ const book = {
 //   // Значение свойства с таким ключом
 //   console.log(book[key]);
 // }
-const keys = Object.keys(book);
+// const keys = Object.keys(book);
 
-for (const key of keys) {
-  // Ключ
-  console.log(key);
-  // Значение свойства
-  console.log(book[key]);
-}
+// for (const key of keys) {
+//   // Ключ
+//   console.log(key);
+//   // Значение свойства
+//   console.log(book[key]);
+// }
+
+// api / authors - get  200
+// api / authors - post 201
+// api / authors /:id  get 200
+// api / authors /: id - put 200
+// api / authors /: id - patch 200
+// api / authors /: id - delete 204
+
+// api / authors /: id / books
+// модификаторы доступа
+// сокрытие деталей реализации - инкапсуляция
+
+// сабклассы взаимозаменямы
+console.log(typeof undefined);
+const value1 = "5";
+const value2 = 9;
+let sum = value1 - value2;
+console.log(sum);
