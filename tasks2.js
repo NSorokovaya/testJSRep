@@ -179,8 +179,8 @@ const ts = [-5, 5, -29, 950, 2, -4];
 // сокрытие деталей реализации - инкапсуляция
 
 // сабклассы взаимозаменямы
-console.log(typeof undefined);
-const value1 = "5";
-const value2 = 9;
-let sum = value1 - value2;
-console.log(sum);
+// console.log(typeof undefined);
+// const value1 = "5";
+// const value2 = 9;
+// let sum = value1 - value2;
+// console.log(sum);
