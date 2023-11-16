@@ -86,6 +86,17 @@
 // console.log(oldPeopleSum);
 
 const ts = [-5, 5, -29, 950, 2, -4];
+function positiveSum(ts) {
+  let sum = 0;
+  for (const number of ts) {
+    if (number > 0) {
+      sum += number;
+    }
+  }
+  return sum;
+}
+// console.log(positiveSum(ts));
+console.log(100 % 200);
 
 // function computeClosestToZero(ts) {
 //   let closest = 0;
