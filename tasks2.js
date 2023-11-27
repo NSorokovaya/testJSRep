@@ -196,6 +196,6 @@ console.log(100 % 200);
 // let sum = value1 - value2;
 // console.log(sum);
 
-function saleHotdogs(n) {
-  return n >= 5 ? 95 : n >= 10 ? 90 : 100;
-}
+// function saleHotdogs(n) {
+//   return n >= 5 ? 95 : n >= 10 ? 90 : 100;
+// }
