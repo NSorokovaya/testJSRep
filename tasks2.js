@@ -96,7 +96,7 @@
 //   return sum;
 // }
 // console.log(positiveSum(ts));
-console.log(100 % 200);
+// console.log(100 % 200);
 
 // function computeClosestToZero(ts) {
 //   let closest = 0;
