@@ -14,7 +14,7 @@ function pickIt(arr) {
 
   return [odd, even];
 }
-
+//#10
 function grabDoll(dolls) {
   var bag = [];
   //coding here
@@ -27,7 +27,7 @@ function grabDoll(dolls) {
   }
   return bag;
 }
-
+//11
 function giveMeFive(obj) {
   //coding here
   let array = [];
@@ -41,6 +41,7 @@ function giveMeFive(obj) {
   }
   return array;
 }
+//12
 function whatNumberIsIt(n) {
   //coding here
   if (isNaN(n)) {
@@ -56,4 +57,15 @@ function whatNumberIsIt(n) {
   } else if (typeof n === "number") {
     return "Input number is " + n;
   }
+}
+
+//Training JS #14: Methods of Number object--toString() and toLocaleString()
+function colorOf(r, g, b) {
+  //coding here
+  return (
+    "#" +
+    r.toString(16).padStart(2, "0") +
+    g.toString(16).padStart(2, "0") +
+    b.toString(16).padStart(2, "0")
+  );
 }
