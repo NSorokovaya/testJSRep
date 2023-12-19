@@ -68,3 +68,14 @@ function colorOf(r, g, b) {
     b.toString(16).padStart(2, "0")
   );
 }
+
+//Training JS #15: Methods of Number object--toFixed(), toExponential() and toPrecision()
+
+function howManySmaller(arr, n) {
+  //coding here..
+  const roundedArr = arr.map((num) => Number(num.toFixed(2)));
+
+  const count = roundedArr.filter((num) => num < n).length;
+
+  return count;
+}
