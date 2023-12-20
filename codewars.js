@@ -79,3 +79,17 @@ function howManySmaller(arr, n) {
 
   return count;
 }
+//Training JS #16: Methods of String object--slice(), substring() and substr()
+function cutIt(arr) {
+  //coding here...
+  let shortest = arr[0].length;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].length < shortest) {
+      shortest = arr[i].length;
+    }
+  }
+  const result = arr.map((str) => str.slice(0, shortest));
+  return result;
+}
+
+//Training JS #17: Methods of String object--indexOf(), lastIndexOf() and search()
