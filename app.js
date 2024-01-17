@@ -115,3 +115,14 @@
 //get localhost:/api/authors/:id -
 
 //update
+// function cutIt(arr) {
+//   //coding here...
+//   let shortest = arr[0].length;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].length < shortest) {
+//       shortest = arr[i].length;
+//     }
+//   }
+//   const result = arr.map((str) => str.slice(0, shortest));
+//   return result;
+// }
