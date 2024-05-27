@@ -16,3 +16,4 @@
 // console.log(book.rating); // 9
 // console.log(book.isPublic); // false
 // console.log(book.genres); // ['historical prose', 'adventures', 'драма']ж
+

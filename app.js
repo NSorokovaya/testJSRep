@@ -138,14 +138,14 @@
 
 // const redCats = cats.filter((cat) => cat.color === "red");
 // console.log(redCats);
-const arrayExample = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 6, 7, 0, 0, 0]; // [1, 2, 3, 4, 5, 6, 7, 0]
-function lalala(arrayExample) {
-  return arrayExample.reduce((acc, item) => {
-    if (acc.includes(item)) {
-      return acc;
-    }
+// const arrayExample = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, 5, 6, 7, 0, 0, 0]; // [1, 2, 3, 4, 5, 6, 7, 0]
+// function lalala(arrayExample) {
+//   return arrayExample.reduce((acc, item) => {
+//     if (acc.includes(item)) {
+//       return acc;
+//     }
 
-    return [...acc, item];
-  }, []);
-}
-console.log(lalala(arrayExample));
+//     return [...acc, item];
+//   }, []);
+// }
+// console.log(lalala(arrayExample));
