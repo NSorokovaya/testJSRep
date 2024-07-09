@@ -17,7 +17,6 @@
 //   });
 
 //решение
-
 const delay = (ms) => {
   return new Promise((res) => {
     setTimeout(res, ms);
@@ -28,3 +27,5 @@ console.log("zero seconds passed");
 delay(1000).then(() => {
   console.log("one second passed");
 });
+
+
