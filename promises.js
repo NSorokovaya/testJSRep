@@ -28,4 +28,25 @@ delay(1000).then(() => {
   console.log("one second passed");
 });
 
+// const delay = (ms) => {
+//   return new Promise((resolve) => {
+//     setTimeout(resolve, ms);
+//   });
+// };
 
+// const run = async () => {
+//   // Please create a function `delay` that takes a number `ms` (milliseconds) as an argument
+//   // and makes the program wait for the specified `ms` delay before continuing.
+
+//   // Example:
+//   // The following log should appear immediately.
+//   console.log("I show up immediately");
+
+//   // This will call the `delay` function with 1000ms (1 second) and wait for it to complete.
+//   await delay(1000);
+
+//   // The following log should appear after a delay of 1000ms (1 second).
+//   console.log("I show up after 1000ms");
+// };
+
+// run();

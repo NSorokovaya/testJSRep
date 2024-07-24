@@ -37,3 +37,16 @@ function sum(numbers) {
   }
   return sum;
 }
+
+// Task 4: Palindrome Checker
+// Description: Write a function isPalindrome that checks if a given string is a palindrome (reads the same forward and backward).c
+function isPalindrome(x) {
+  const word = x.toLowerCase();
+  const palindrome = x.toLowerCase().split("").reverse().join("");
+  console.log(palindrome);
+  if (word === palindrome) {
+    return true;
+  } else return false;
+}
+
+console.log(isPalindrome("Abba"));
