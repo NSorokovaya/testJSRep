@@ -11,9 +11,9 @@ var search = function (nums, target) {
     if (nums[middleIndex] === target) {
       return middleIndex;
     } else if (nums[middleIndex] < target) {
-      left = middleIndex;
+      left = middleIndex + 1;
     } else {
-      right = middleIndex;
+      right = middleIndex - 1;
     }
   }
 
