@@ -29,21 +29,25 @@ let prices = [3, 2, 6, 5, 0, 3];
 // };
 
 var maxProfit = function (prices) {
-  if (prices.length <= 1) return 0;
+  if (prices.length <= 1) {
+    return 0;
+  }
+
   let minPrice = prices[0];
-  let maxProfit = [];
+  let maxProfitValue = 0;
 
   for (let i = 1; i < prices.length; i++) {
     if (prices[i] > minPrice) {
-      maxProfit.push(prices[i] - minPrice);
+      const profit = prices[i] - minPrice;
+      if (profit > maxProfitValue) {
+        maxProfitValue = profit;
+      }
     } else {
       minPrice = prices[i];
     }
   }
-  if (maxProfit.length > 0) {
-    const result = Math.max(...maxProfit);
-    return result;
-  } else return 0;
+
+  return maxProfitValue;
 };
 
 console.log(maxProfit(prices));
